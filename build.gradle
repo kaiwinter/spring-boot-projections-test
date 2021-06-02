@@ -34,6 +34,7 @@ dependencies {
 
     // UTILITIES
     compileOnly group: 'org.projectlombok', name: 'lombok'
+    annotationProcessor group: 'org.projectlombok', name: 'lombok'
     implementation group: 'org.apache.commons', name: 'commons-lang3'
 
     // DATABASES
