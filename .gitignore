@@ -17,3 +17,9 @@
 
 # Generated resources
 **/resources/generated/
+
+# Eclipse
+bin\
+.settings\
+.project
+.classpath
