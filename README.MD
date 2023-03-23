@@ -1,7 +1,7 @@
 # Spring Boot Projections Test
 
 ## Requirements
-1. Java 8
+1. Java 17
 
 ## Nice to have
 1. Lombok plugin
@@ -61,3 +61,31 @@ Constructor projections took 57.03 ms on average out of 100 iterations.
 Interface projections took 407.38 ms on average out of 100 iterations.  
 Tuple projections took 49.52 ms on average out of 100 iterations.  
 Dynamic projections took 56.03 ms on average out of 100 iterations.
+
+### Spring Boot 2.5.14
+Entity projections took 477.8 ms on average out of 100 iterations.
+Constructor projections took 56.2 ms on average out of 100 iterations.
+Interface projections took 406.71 ms on average out of 100 iterations.
+Tuple projections took 49.78 ms on average out of 100 iterations.
+Dynamic projections took 55.0 ms on average out of 100 iterations.
+
+### Spring Boot 2.6.14
+Entity projections took 483.45 ms on average out of 100 iterations.
+Constructor projections took 52.66 ms on average out of 100 iterations.
+Interface projections took 423.49 ms on average out of 100 iterations.
+Tuple projections took 47.98 ms on average out of 100 iterations.
+Dynamic projections took 50.99 ms on average out of 100 iterations.
+
+### Spring Boot 2.7.9
+Entity projections took 492.43 ms on average out of 100 iterations.
+Constructor projections took 49.57 ms on average out of 100 iterations.
+Interface projections took 426.91 ms on average out of 100 iterations.
+Tuple projections took 43.49 ms on average out of 100 iterations.
+Dynamic projections took 48.46 ms on average out of 100 iterations.
+
+### Spring Boot 3.0.5
+Entity projections took 546.25 ms on average out of 100 iterations.
+Constructor projections took 44.46 ms on average out of 100 iterations.
+Interface projections took 393.28 ms on average out of 100 iterations.
+Tuple projections took 42.03 ms on average out of 100 iterations.
+Dynamic projections took 45.7 ms on average out of 100 iterations.

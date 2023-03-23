@@ -1,7 +1,5 @@
-import org.springframework.boot.gradle.plugin.SpringBootPlugin
-
 plugins {
-    id "org.springframework.boot" version "2.5.0"
+    id "org.springframework.boot" version "3.0.5"
 }
 
 repositories {
@@ -16,14 +14,9 @@ apply plugin: 'io.spring.dependency-management'
 
 group = 'pl.aurora'
 version = '1.0.0'
-sourceCompatibility = 1.8
-targetCompatibility = 1.8
-
-dependencyManagement {
-    imports {
-        mavenBom SpringBootPlugin.BOM_COORDINATES
-    }
-}
+sourceCompatibility = 17
+targetCompatibility = 17
+ext["jakarta-servlet.version"] = "5.0.0"
 
 dependencies {
     // SPRING BOOT
